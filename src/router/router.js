@@ -7,8 +7,8 @@ const { class1 } = require("../controller/controller");
 
 router.get("/", class1.a);
 
-router.get("/Add2", class1.b);
-router.post("/Add2", class1.c);
+router.get("/Add", class1.b);
+router.post("/Add", class1.c);
 router.get("/Upi", class1.d);
 
 module.exports = router;
